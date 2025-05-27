@@ -1,0 +1,114 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background-color: #fff0f5;
+  color: #4b4b4b;
+  padding: 20px;
+}
+
+.container {
+  max-width: 750px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(255, 182, 193, 0.5);
+  border: 2px solid #ffc0cb;
+}
+
+h1 {
+  text-align: center;
+  color: #d63384;
+  margin-bottom: 25px;
+}
+
+h2 {
+  color: #c71585;
+  border-bottom: 2px solid #ff69b4;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+form label {
+  display: block;
+  margin-top: 12px;
+  font-weight: 600;
+  color: #7a297a;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form input[type="number"],
+form input[type="tel"],
+form input[type="file"],
+form select,
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ffc0cb;
+  border-radius: 6px;
+  background-color: #fff9fb;
+  color: #333;
+}
+
+.radio-group {
+  margin-top: 6px;
+  display: flex;
+  gap: 15px;
+}
+
+.radio-group label {
+  font-weight: normal;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table th, table td {
+  border: 1px solid #ffb6c1;
+  padding: 8px;
+  text-align: left;
+}
+
+table th {
+  background-color: #ffe4ec;
+  color: #c71585;
+}
+
+/* Button */
+button[type="submit"] {
+  margin-top: 20px;
+  background-color: #ff69b4;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+}
+
+button[type="submit"]:hover {
+  background-color: #d63384;
+}
